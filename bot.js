@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const kiryuDeskSlam = new Discord.Client();
-kiryudeskslam.login(BOT_TOKEN);
+kiryuDeskSlam.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot
 
 kiryuDeskSlam(‘ready’, () => 
 {
