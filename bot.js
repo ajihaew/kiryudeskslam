@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const kiryuDeskSlam = new Discord.Client();
-kiryudeskslam.login(NjgxNzA2MjEzNzc5NzAxNzgw.XlSYSQ.Tsrj7f0fvV0B0trESuYMGY4V-0Y);
+kiryudeskslam.login(BOT_TOKEN);
 
 kiryuDeskSlam(‘ready’, () => 
 {
